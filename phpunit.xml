@@ -1,0 +1,13 @@
+<phpunit 
+    bootstrap = "vendor/autoload.php"
+    colors = "false"
+    stopOnFailure="false"
+    printerFile="printer"
+    stop-on-incomplete="false"
+ >
+    <testsuites>
+        <testsuite name='All Test'>
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

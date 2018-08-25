@@ -1,0 +1,132 @@
+body
+{
+    overflow-x: hidden;
+}
+#exceltable table tr td 
+{
+    position : relative;
+}
+#exceltable table tr td span
+{
+    position: absolute;
+    right: 34px;
+    top: 2px;
+}
+ tr td input
+{
+    height:30px;
+    width:100px; 
+    border: solid 1px #e1dada;
+    border-right:solid 0px;
+    cursor:cell;
+}
+ tr td input:focus
+{
+    border: dashed 3px green;
+}
+/* class for add on input when user click ctrl+click on input */
+ .selected
+{
+    border: dashed 3px green;
+}
+
+ tr td input:hover
+{
+    background: #d7d5d5;
+}
+ .table-responsive {
+    min-height: 591px;;
+    overflow-x: auto;
+    max-height:400px;
+    position: relative;
+}
+ tr td:first-child
+{
+    background: #4b4b4bd1;
+    color: white;
+    padding: 5px;
+}
+ tr td .calculated
+{
+    background: #c6c6c6;
+}
+ thead th
+{
+    background: #4b4b4bd1;
+    color: white;
+    text-align:center;
+    padding: 5px;
+}
+/*end table style*/
+ input
+{
+    padding-left:2px;
+}
+/* context meue style */
+.dropdown, .dropup 
+{
+    position: absolute;
+}
+#tableDropdown.button
+{
+        display:none;                
+}
+/* end context menue style */
+
+/*style for add note */
+#note
+{
+    width:150px;
+    height:90px;
+    position:absolute;
+
+}
+#note  textarea
+{
+    width:100%;
+    
+
+    height:100%;
+    
+}
+#note span  
+{
+   position:absolute;
+    right: 5px;
+    font-size: 1.4em;
+    cursor:pointer;
+}
+
+/*end style for add note */
+/*  colborder for resize columns */
+.colborder {
+    cursor: col-resize;
+    height: 100%;
+    margin-left: -6px;
+    position: absolute;
+    width: 5px;
+}
+/*    end colborder resize columns */
+
+/*fixing proplem of sol long of auto complete*/
+.ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;   /* prevent horizontal scrollbar */
+    overflow-x: hidden; /* add padding to account for vertical scrollbar */
+    z-index:1000 !important;
+}
+/*end fixing proplem of sol long of auto complete*/
+
+/*richtext style*/
+.richtext
+{
+    position: absolute;
+    top: 41%;
+    cursor: pointer;
+}
+/*end richtext style*/
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 7px 15px;
+}

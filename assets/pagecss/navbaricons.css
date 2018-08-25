@@ -1,0 +1,28 @@
+.class-align-center
+{
+    text-align:center;
+}
+.class-align-justify
+{ 
+    text-align: justify;
+}
+.class-align-left
+{
+  text-align: left  ;
+}
+.class-align-right
+{
+  text-align: right  ;
+}
+.class-bold
+{
+    font-weight: bold;
+}
+.class-italic
+{
+  font-style: italic;   
+}
+.class-underline
+{
+  text-decoration: underline;
+}

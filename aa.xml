@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="All Test" tests="6" assertions="7" failures="4" errors="0" time="0.076646">
+    <testsuite name="tests\valid\vTest" file="C:\xampp\htdocs\excel\tests\valid\vTest.php" namespace="tests\valid" fullPackage="tests.valid" tests="3" assertions="3" failures="2" errors="0" time="0.075354">
+      <testcase name="testvIsNumber" class="tests\valid\vTest" file="C:\xampp\htdocs\excel\tests\valid\vTest.php" line="13" assertions="1" time="0.007739">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">tests\valid\vTest::testvIsNumber
+every thing is not ok
+Failed asserting that true matches expected false.
+
+C:\xampp\htdocs\excel\tests\valid\vTest.php:15
+</failure>
+      </testcase>
+      <testcase name="testVIsAge" class="tests\valid\vTest" file="C:\xampp\htdocs\excel\tests\valid\vTest.php" line="26" assertions="1" time="0.000216">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">tests\valid\vTest::testVIsAge
+Failed asserting that false matches expected true.
+
+C:\xampp\htdocs\excel\tests\valid\vTest.php:28
+</failure>
+      </testcase>
+      <testcase name="testStr" class="tests\valid\vTest" file="C:\xampp\htdocs\excel\tests\valid\vTest.php" line="35" assertions="1" time="0.067399"/>
+    </testsuite>
+    <testsuite name="tests\valid\validTest" file="C:\xampp\htdocs\excel\tests\valid\validTest.php" namespace="tests\valid" fullPackage="tests.valid" tests="3" assertions="4" failures="2" errors="0" time="0.001292">
+      <testcase name="testIsNumber" class="tests\valid\validTest" file="C:\xampp\htdocs\excel\tests\valid\validTest.php" line="13" assertions="3" time="0.000807">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">tests\valid\validTest::testIsNumber
+Failed asserting that true matches expected false.
+
+C:\xampp\htdocs\excel\tests\valid\validTest.php:19
+</failure>
+      </testcase>
+      <testcase name="testIsAge" class="tests\valid\validTest" file="C:\xampp\htdocs\excel\tests\valid\validTest.php" line="25" assertions="1" time="0.000214">
+        <failure type="PHPUnit_Framework_ExpectationFailedException">tests\valid\validTest::testIsAge
+Failed asserting that false matches expected true.
+
+C:\xampp\htdocs\excel\tests\valid\validTest.php:27
+</failure>
+      </testcase>
+      <testcase name="testAll" class="tests\valid\validTest" file="C:\xampp\htdocs\excel\tests\valid\validTest.php" line="33" assertions="0" time="0.000271"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
